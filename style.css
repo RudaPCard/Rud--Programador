@@ -98,6 +98,7 @@ button {
     cursor: pointer;
     margin-top: 30px;
     margin-bottom: 20%;
+    
 }
 
 button:hover {
@@ -109,10 +110,17 @@ button:hover {
 
 .logo {
     height: 400px;
-    width: 900px;
-    margin-left: -200px;
-    margin-top: -80px;
+    width: 800px;
+    margin: 0%;
+    margin-bottom: -20%;
+    margin-left: -20%;
 }
+
+.biografia {
+margin-top: 0%;
+margin-bottom: 10%;
+}
+
 
 .mario {
     height: 60%;
@@ -267,19 +275,19 @@ section {
     margin-right: 100px;
     font-weight: bold;
     font-family: "Sriracha", sans-serif;
+    line-height: 1.3;
 
     & p {
-        color: rgba(0, 0, 0, 0.795);
-        font-size: 35px;
-        line-height: 1.3;
-
+    color: rgba(0, 0, 0, 0.795);
+    font-size: 35px;
     }
+ 
 
 }
 
 .botao-um {
     height: 100px;
-    width: 130px;
+    width: 150px;
     border-radius: 8px;
     border: none;
     background-color: rgb(8, 236, 27);
@@ -288,21 +296,28 @@ section {
     cursor: pointer;
     transition: background-color 0.3s;
     margin-bottom: 20%;
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
-    text-decoration: none;
+    
+    & .texto-sem-sublinhado {
+        text-decoration: none;
+    }
 
 
 }
 
 .botao-um:hover {
     background-color: rgba(0, 0, 0, 0.61);
-    color: white;
+    
     width: 260px;
     height: 150px;
     font-size: 30px;
-    text-decoration: none;
     border-radius: 8px;
+
+    & .texto-sem-sublinhado {
+        text-decoration: none;
+        color: white;
+    }
 }
 
 .logo-um {
